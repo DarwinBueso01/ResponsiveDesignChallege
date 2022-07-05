@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+}
+
+a{
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: teal;
+	cursor: pointer;
+}
+	
+Body {
+	background-color: white;
+	color: gray	
+}
+
+H1 {
+	font-size: 50pt; 
+	text-align: right
+}
+
+H2 {
+	font-size: 25pt; 
+	text-align: right
+}
+
+H3 {
+	font-size: 10pt; 
+	text-align: center
+}
+
+H4 {
+	text-align: center
+}
+
+H5 {
+	font-size: 15pt
+}
+
+P {
+	font-size: 10pt; 
+}
+
+Table {
+	width: 400px; 
+	color: white; 
+	background-color: green;
+	margin: .8em;
+	border-color: darkgreen
+}
+
+Form {
+	text-align: center; 
+	color: white; 
+	background-color: green
+}
+
+	
+@media screen and (max-width: 844px){
+	a{
+		font-size: 12px;
+	}
+
+	nav{
+		float: right;
+	}
+
+	.logoImg{
+		height: 250px;
+		width: 400px;
+	}
+
+}
+
