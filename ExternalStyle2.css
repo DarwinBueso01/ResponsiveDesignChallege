@@ -182,18 +182,32 @@ input[type=submit]:hover, input[type=reset]:hover{
 
 	
 @media screen and (max-width: 844px){
-	a{
-		font-size: 12px;
-	}
+    .logoImg{
+        width: 960px;
+    }
 
-	nav{
-		float: right;
-	}
+    .reviewsSection{
+        width: 960px;
+    }
 
-	.logoImg{
-		height: 250px;
-		width: 400px;
-	}
+    .forms{
+        margin: 30px 230px;
+    }
 
+    .mainFooter{
+        width: 960px;
+    }
+
+    .mainTitle{
+        width: 960px;
+    }
+
+    .reservationsH2{
+        width: 960px;
+    }
+
+    .bookingH5{
+        width: 960px;
+    }
 }
 

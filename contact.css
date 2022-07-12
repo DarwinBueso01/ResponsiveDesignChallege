@@ -123,3 +123,16 @@ Body {
     color: green;
 }
 
+@media screen and (max-width: 844px){
+    .logoImg{
+        width: 960px;
+    }  
+    .contentSection{
+        width: 960px;
+        padding: 80px 200px; 
+    }
+    .mainFooter{
+        width: 960px;
+    }
+}
+

@@ -150,4 +150,35 @@ Body {
     color: green;
 }
 
-
+@media screen and (max-width: 844px){
+    .logoImg{
+        width: 960px;
+    }
+    .missionH5{
+        width: 960px;
+    }
+    .missionPtag{
+        width: 560px;
+        margin: 30px 150px 150px 180px;
+    }
+    .movementMainSection{
+        width: 960px;
+    }
+    .movementFlexSection{
+        flex-direction: column;
+    } 
+    .contentPtag{
+        width: 960px;
+        padding: 10px 150px 20px 150px; 
+        
+    }
+    .movementImg{
+        padding-left: 150px;
+        width: 800px; 
+        height: 450px;
+        padding-bottom: 20px;
+    }
+    .mainFooter{
+        width: 960px;
+    }
+}
