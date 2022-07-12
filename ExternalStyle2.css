@@ -3,63 +3,181 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	font-weight: bolder;
+	font-style: normal;
+}
+
+ul li{
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+    position: relative;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+  
+li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+    margin-top: 5px;
+}
+li:hover:after {
+    width: 85%;
+    background: rgb(166, 198, 169);
+}
+
+
+ul li a{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    margin: 8px 18px 8px 18px;
+    padding: 0px 0px 10px 0px;
+    transition: 0.7s;
     text-decoration: none;
 }
 
-a{
-	color: black;
+ul li a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(166, 198, 169);   
 }
 
-a:hover {
-	text-decoration: underline; 
-	color: teal;
-	cursor: pointer;
+.logo{
+    color: rgb(193, 215, 195);
+    font-size: 40px;
+    margin-top: 18px;
+    margin-left: 20px;
+	float: left;
 }
+
 	
 Body {
 	background-color: white;
 	color: gray	
 }
 
-H1 {
-	font-size: 50pt; 
-	text-align: right
+.logoImg{
+	background: linear-gradient(rgba(0, 0, 0, 0.999), rgba(0, 0, 0, 0.3)), url("./logo.png") no-repeat center center/cover;
+	height: 820px;
+	width: 100%;
 }
 
-H2 {
-	font-size: 25pt; 
-	text-align: right
+.sticky{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 10px;
 }
 
-H3 {
-	font-size: 10pt; 
-	text-align: center
+.mainTitle{
+	text-align: center;
+	font-size: 30px;
+	padding: 80px 80px;
 }
 
-H4 {
-	text-align: center
+.reservationsH2{
+	font-size: 100px;
+	padding: 20px 40px;
+	text-align: center;
 }
 
-H5 {
-	font-size: 15pt
+.bookingH5{
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
-P {
-	font-size: 10pt; 
-}
-
-Table {
-	width: 400px; 
+.forms{
+	text-align: start; 
 	color: white; 
 	background-color: green;
-	margin: .8em;
-	border-color: darkgreen
+	width: 500px;
+	height: 530px;
+	margin: 30px 460px;
+	padding: 40px 40px 50px 40px;
+	border-radius: 7px;
 }
 
-Form {
-	text-align: center; 
-	color: white; 
-	background-color: green
+input[type=text], input[type=date], input[type=time], input[type=textarea], textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: rgb(102, 172, 136);
+    color:white;
+    margin: 15px 15px 15px 0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    opacity: 0.6;
+    color:white;
+}
+
+.reviewsSection{
+    margin-top: 100px;
+    padding: 100px 150px 150px 0;
+    background-color:rgb(230, 255, 235);
+}
+
+.reviewsH2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 100px 100px 50px 0;
+}
+
+.reviewsH4{
+    text-align: start;
+    margin: 120px 120px 120px 250px;
+}
+
+.reviewsH5{
+    text-align: center;
+}
+
+.mainFooter{
+    padding: 50px 50px 50px 50px;
+}
+
+.footerHomeLink{
+    text-align: center; 
+    
+}
+
+.footerHomeLink a{
+    color: green;
+}
+
+.footerH4{
+    text-align: center;
+    margin-top: 30px;
+    color: green;
+}
+
+.copyright{
+    margin-top: 60px;
+    text-align: center;
+    color: green;
 }
 
 	
